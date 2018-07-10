@@ -1,0 +1,37 @@
+Producto
+->id
+->Nombre
+->Precio
+->Descripción
+->Categoría->asociado
+->Unidad->asociado
+
+Categoría
+-> Nombre
+-> id
+
+Unidad
+->id
+->Nombre
+
+Usario
+->dni
+->Nombres
+->Apellidos
+->Dirección
+->Distrito
+->Correo
+->Teléfono
+
+Compra
+->id
+->lista->Productos
+->SubTotal
+->Delivery
+->Usario->asociado
+->Total
+
+Tarjeta
+->id
+->Visa
+->token o algo
